@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgb(25, 25, 25),
+            -10px -10px 20px rgb(60, 60, 60);
+}
+.logo {
+    color: white;
+    font-size: 24px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-style: italic;
+}
+.logo1 {
+    color: #ff3300;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-style: italic;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 16px;
+}
+
+.nav-links a:hover {
+    color: #fa4214;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 6px 10px;
+        height: auto;
+    }
+
+    .nav-links {
+        gap: 4px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+}
