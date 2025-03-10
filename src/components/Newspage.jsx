@@ -56,7 +56,7 @@ export default NewsPage
 // }, []  );
 
 //   return (
-//     <div className='news-container'>
+//     <div className='news-container' id='news'>
 //         {
 //             data&&
 //             data.map((news, index)=> {
